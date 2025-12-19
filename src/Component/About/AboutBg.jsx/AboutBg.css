@@ -1,0 +1,54 @@
+
+@media screen and (min-width: 350px ) and (max-width: 767px){
+.about-img2div{
+height: 350px;
+width: 300px;
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px){
+  .md\:px-20 {
+        padding-inline: calc(var(--spacing) * 0);
+}
+.md\:w-\[425px\] {
+        width: 365px;
+}
+.md\:pl-28 {
+        padding-left: calc(var(--spacing) * 10);
+}
+.md\:ml-12 {
+        margin-left: calc(var(--spacing) * -24);
+}
+.md\:gap-20 {
+        gap: calc(var(--spacing) * 10);
+}
+md\:right-\[-70px\] {
+        right: -23px;
+}
+.bg-slider {
+width: calc(1 / 2 * 260%);
+}
+.about-img-2{
+  width: 100%;
+}
+.about-img2div{
+  width: 280px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+}
+
+
+.about-txt{
+        border: 2px solid red;
+}
+.about-text{
+        border: 2px solid blue;
+position: relative;
+z-index: 111;
+}
+
+.show-txt{
+            background: #ffffffb3;
+    padding: 11px;
+}

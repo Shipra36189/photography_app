@@ -1,0 +1,33 @@
+
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .ipad-h{
+    height: 70vh !important;
+  } 
+  .ipad-left{
+    left: 100px !important;
+  }
+  .margin-top-42{
+    margin-top: -42px;
+  }
+  .md-sm-0{
+    right: 0 !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .md-sm-0{
+    right: 0 !important;
+  }
+  .margin-top-42{
+    margin-top: -152px;
+  }
+}
+
+
+
+@media (max-width: 640px) {
+  /* Target most phones */
+  .ipad-h{
+    height: 169vh !important;
+  }
+}

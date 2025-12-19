@@ -1,0 +1,10 @@
+
+
+@media screen and (min-width: 350px ) and (max-width: 767px){
+.contact-section{
+margin-top: -100px;
+margin-bottom: 20px;
+justify-items: center;
+text-align: center;
+}
+}

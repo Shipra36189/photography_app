@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+
+.script-text {
+  font-style: normal;
+  color: #000000;
+  opacity: 0.85;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  line-break: normal;
+  z-index: 10;
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+}
+.script-text-large {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+.script-text-small {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  color: #000000;
+  opacity: 0.85;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+@media screen  and (max-width: 640px){
+  .script-text{
+    top: 40%;
+  }
+  .script-text-large {
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+  .tilt-img{
+    left: 65%;
+  }
+  .tilt-image{
+    height: 120px;
+  }
+  .top-right{
+    top: 2%;
+    left: 65%;
+    height: 150px;
+    width: 130px;
+  }
+.center-img{
+height: 280px;
+}
+}
+
+
+@media screen  and (min-width: 660px) and (max-width: 756px) {
+  .footergallery{
+    padding-top: 20px;
+    height: 60vh;
+    }
+    .script-text-large {
+      font-size: 2.5rem;
+      line-height: 1.1;
+  }
+  .tilt-img{
+    left: 60%;
+  }
+  .top-right{
+    top: 2%;
+    left: 60%;
+    height: 150px;
+    width: 130px;
+  }
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .footergallery{
+    /* padding-top: 116px; */
+    height: 35vh;
+    }
+    .footer-sec{
+    padding-top: -300px;
+    }
+    footer{
+      padding-top: 100px !important;
+      padding-left: 20px !important;
+      padding-right:20px !important ;
+    }
+    .iPad1{
+      padding: 10px !important;
+    }
+    .script-text{
+      top: 40%;
+    }
+    .tilt-img{
+      left: 65%;
+    }
+    .tilt-image{
+      height: 150px;
+    }
+    .top-right{
+      top: 2%;
+      left: 65%;
+      height: 150px;
+      width: 130px;
+    }
+.center-img{
+  width: 220px;
+}
+}
